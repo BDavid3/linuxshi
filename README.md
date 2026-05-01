@@ -1,0 +1,2 @@
+# linuxshi
+mostly configs
