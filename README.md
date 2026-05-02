@@ -1,2 +1,4 @@
-# linuxshi
-mostly configs
+# Linux conf
+- kitty terminal
+- waybar
+- hyprland conf
