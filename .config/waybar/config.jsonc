@@ -33,18 +33,18 @@
   },
 
   "clock": {
-    "format": "{:%H:%M  %a %d %b}",
+    "format": "󰥔  {:%H:%M  %a %d %b}",
     "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>"
   },
 
   "cpu": {
-    "format": " {usage}%",
+    "format": "  {usage}%",
     "tooltip": false,
     "interval": 2
   },
 
   "memory": {
-    "format": " {used:0.1f}G",
+    "format": "󰍛  {used:0.1f}G",
     "interval": 5
   },
 
@@ -56,11 +56,11 @@
     "format": "{icon} {capacity}%",
     "format-charging": " {capacity}%",
     "format-plugged": " {capacity}%",
-    "format-icons": ["", "", "", "", ""]
+    "format-icons": ["", "", "", "", ""]
   },
 
   "network": {
-    "format-wifi": " {essid}",
+    "format-wifi": "  {essid}",
     "format-ethernet": " {ipaddr}",
     "format-disconnected": "󰤭 offline",
     "tooltip-format": "{ifname}: {ipaddr}/{cidr}",
@@ -71,7 +71,7 @@
     "format": "{icon} {volume}%",
     "format-muted": "󰝟 muted",
     "format-icons": {
-      "default": ["", "", ""]
+      "default": ["", "", ""]
     },
     "on-click": "pavucontrol"
   },
